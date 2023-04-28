@@ -1,0 +1,4 @@
+The app dynamically generates cards for each filtered coin, displaying its symbol, name, price, and 24-hour
+price change. The cards also include the coin's logo, which is stored locally in the img folder, and the path
+to the image is specified in the modified JSON file.
+To see it, run it trough VS Live Server.

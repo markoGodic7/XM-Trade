@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XM Trade</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css" integrity="...">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navigation">
+            <div class="navigation__logo">
+                <a href="#logo">
+                    <img src="img/logo-png.png" alt="XM Logo">
+                </a>
+            </div>
+            <div class="navigation__links">
+                <a href="#XMHomepage" class="links-single">XM Homepage</a>
+                <a href="#support" class="links-single">Support</a>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <section class="hero">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 offset-md-1 col-md-10 offset-lg-2 col-lg-8">
+                    <p class="hero__intro">Trade with</p>
+                    <h2 class="hero__header"><strong>Zero Swaps</strong> on All XM Ultra Low Accounts for more than 25
+                        instruments!</h2>
+                    <p class="hero__paragraph">Enjoy spreads <strong>as low as 0.6 pips</strong> and <strong>leverage up
+                            to 1000:1</strong> on instruments like <strong>EURUSD, USDJPY, EURJPY, GBPUSD,</strong> and
+                        <strong>Gold.</strong></p>
+                    <button class="hero__button">Open Account</button>
+
+                    <p class="hero__text">New to trading? Try a <a href="#demoacc" class="demo-account">Demo
+                            account.</a></p>
+                    <p class="hero__text hero__text--terms">Terms and Conditions apply<span>*</span>. To read the full
+                        T&Cs, <a href="#">click here.</a></p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="coins">
+        <div class="card-container">
+
+            <div class="card" id="btc">
+                <div class="card__header">
+                    <div class="card__image">
+                        <img src="img/bitcoin.png" alt="bitcoin">
+                    </div>
+                    <div class="card__symbol">BTC</div>
+                    <div class="card__name">Bitcoin</div>
+                </div>
+                <hr class="card__hr">
+                <div class="card__footer">
+                    <div class="card__price">$0.00</div>
+                    <span class="card__change"></span>
+                </div>
+            </div>
+
+            <div class="card" id="eth">
+                <div class="card__header">
+                    <div class="card__image">
+                        <img src="img/etherium.png" alt="bitcoin">
+                    </div>
+                    <div class="card__symbol">ETH</div>
+                    <div class="card__name">Ethereum</div>
+                </div>
+                <hr class="card__hr">
+                <div class="card__footer">
+                    <div class="card__price">$0.00</div>
+                    <span class="card__change"></span>
+                </div>
+            </div>
+
+            <div class="card" id="xrp">
+                <div class="card__header">
+                    <div class="card__image">
+                        <img src="img/xrp.png" alt="bitcoin">
+                    </div>
+                    <div class="card__symbol">XRP</div>
+                    <div class="card__name">Ripple</div>
+                </div>
+                <hr class="card__hr">
+                <div class="card__footer">
+                    <div class="card__price">$0.00</div>
+                    <span class="card__change"></span>
+                </div>
+            </div>
+
+            <div class="card" id="ltc">
+                <div class="card__header">
+                    <div class="card__image">
+                        <img src="img/ltc.png" alt="bitcoin">
+                    </div>
+                    <div class="card__symbol">LTC</div>
+                    <div class="card__name">Litecoin</div>
+                </div>
+                <hr class="card__hr">
+                <div class="card__footer">
+                    <div class="card__price">$0.00</div>
+                    <span class="card__change"></span>
+                </div>
+            </div>
+
+            <div class="card" id="bch">
+                <div class="card__header">
+                    <div class="card__image">
+                        <img src="img/bch.png" alt="bitcoin">
+                    </div>
+                    <div class="card__symbol">BCH</div>
+                    <div class="card__name">Bitcoin Cash</div>
+                </div>
+                <hr class="card__hr">
+                <div class="card__footer">
+                    <div class="card__price">$0.00</div>
+                    <span class="card__change"></span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="trade-section">
+        <div class="trade-head">
+            <h3 class="trade-head__header">Why <strong>Trade</strong> with XM?</h3>
+            <hr class="trade-head__horizontal">
+            <p class="trade-head__paragraph">
+                We have been providing traders around the world with the same <strong>premium experience</strong> for
+                over a decade. As an
+                <strong>industry-leader</strong>, we know what the modern trader needs to be <strong>successful</strong>
+                in the markets.
+            </p>
+        </div>
+        <div class="trade">
+            <div class="trade__card trade__card--1">
+                <h3 class="trade__header">Super Trade Execution</h3>
+                <hr class="trade__horizontal">
+                <p class="trade__paragraph">99% of trades are executed in <strong>less than a second</strong>, with no
+                    requotes or
+                    rejections.</p>
+                <img class="trade__image" src="img/fast-execusion-icon.png" alt="fast-execusion-icon">
+            </div>
+            <div class="trade__card trade__card--2">
+                <h3 class="trade__header">Competitive Pricing</h3>
+                <hr class="trade__horizontal">
+                <p class="trade__paragraph">We offer some of the <strong>lowest spreads</strong> and we don't charge
+                    commissions.</p>
+                <img class="trade__image" src="img/competitive-pricing-icon.png" alt="competitive-pricing-icon">
+            </div>
+            <div class="trade__card trade__card--3">
+                <h3 class="trade__header">Advanced Technology</h3>
+                <hr class="trade__horizontal">
+                <p class="trade__paragraph">Trade on <strong>MT4</strong> or <strong>MT5</strong>, with expert tools,
+                    across desktop, web and mobile.</p>
+                <img class="trade__image" src="img/tech-icon.png" alt="tech-icon">
+            </div>
+            <div class="trade__card trade__card--4">
+                <h3 class="trade__header">Start with $5</h3>
+                <hr class="trade__horizontal">
+                <p class="trade__paragraph">Start trading your preferred instruments with as little as a <strong>$5
+                        minimum deposit</strong>.
+                </p>
+                <img class="trade__image" src="img/dollar-icon.png" alt="dollar-icon">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="register">
+        <h2 class="register__title">- Register Here -</h2>
+        <p class="register__description">Join us to celebrate our biggest night of the year.</p>
+
+        <div class="register__data">
+            <div class="register__date">
+                <img class="register__icon" src="img/calendar.png" alt="calendar">
+                <span class="register__date-text">19 November 2022</span>
+            </div>
+            <div class="register__clock">
+                <img class="register__icon" src="img/clock.png" alt="clock">
+                <span class="register__clock-text">17:00 - 23:00</span>
+            </div>
+            <div class="register__location">
+                <img class="register__icon" src="img/location.png" alt="location">
+                <span class="register__location-text">Centara Grand &amp; Bangkok <br> Convention Centre, Bangkok</span>
+            </div>
+        </div>
+
+
+        <div class="register__form">
+            <form class="form" action="#" style="color: white;">
+
+                <div class="register__email">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <div id="emailError" class="register__error"></div>
+                </div>
+
+                <div class="register__password">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <div class="register__paragraphs">
+                        <p class="register__requirement" id="lengthReq"><i class="fa-solid fa-circle-dot"></i> 8 - 15
+                            characters</p>
+                        <p class="register__requirement" id="numReq"><i class="fa-solid fa-circle-dot"></i> 1 or more
+                            numbers</p>
+                        <p class="register__requirement" id="lowerReq"><i class="fa-solid fa-circle-dot"></i> 1 or more
+                            lower case letters</p>
+                        <p class="register__requirement" id="upperReq"><i class="fa-solid fa-circle-dot"></i> 1 or more
+                            upper case letters</p>
+                        <p class="register__requirement" id="specialReq"><i class="fa-solid fa-circle-dot"></i> 1 or
+                            more special characters (#[]()@$&*!?|,.^/\+_-)</p>
+                    </div>
+
+                </div>
+
+
+
+                <div class="success-message" style="display:none;">
+                    <div class="success-message__header">
+                        <img src="img/Vector.png" alt="" height="53px">
+                        <h3>Registration Successful</h3>
+                    </div>
+                    <p class="success-message__footer"><i class="fa-solid fa-caret-right"></i>Thank you for registering
+                        for our event with XM. You will receive an email shortly with confirmation of your registration.
+                    </p>
+                </div>
+
+                <div class="register__buttons">
+                    <input class="hero__button register__button" type="submit" id="submitButton" value="Register now"
+                        disabled style="background-color: grey;">
+                </div>
+
+                <div class="register__terms">
+                    <p class="register__terms-text register__terms-text--account">Don't have an account? <a
+                            href="#">Create one here</a> and register for the event</p>
+                    <p class="register__terms-text register__terms-text--conditions">Terms and Conditions apply*. To
+                        read the full T&Cs, click <a href="#">here</a>.</p>
+                </div>
+
+            </form>
+        </div>
+
+    </section>
+
+
+    <section class="gallery slider-section">
+        <div class="container slider-column">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="slider-header">Event Gallery</h3>
+                </div>
+            </div>
+            <div class="swiper swiper-slider">
+                <div class="swiper-wrapper">
+                    <img class="swiper-slide" src="img/200X200.png" alt="Swiper">
+                    <img class="swiper-slide" src="img/200X200.png" alt="Swiper">
+                    <img class="swiper-slide" src="img/200X200.png" alt="Swiper">
+                    <img class="swiper-slide" src="img/200X200.png" alt="Swiper">
+                    <img class="swiper-slide" src="img/200X200.png" alt="Swiper">
+                    <img class="swiper-slide" src="img/200X200.png" alt="Swiper">
+                    <img class="swiper-slide" src="img/200X200.png" alt="Swiper">
+                    <img class="swiper-slide" src="img/200X200.png" alt="Swiper">
+                    <img class="swiper-slide" src="img/200X200.png" alt="Swiper">
+                    <img class="swiper-slide" src="img/200X200.png" alt="Swiper">
+                    <img class="swiper-slide" src="img/200X200.png" alt="Swiper">
+                    <img class="swiper-slide" src="img/200X200.png" alt="Swiper">
+                </div>
+                <span class="swiper-pagination"></span>
+                <span class="swiper-button-prev"></span>
+                <span class="swiper-button-next"></span>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <div class="about">
+        <div class="about__item about__item--1">
+            <div class="about__header">
+                <div class="about__header-1">Big <span>.</span></div>
+                <div class="about__header-2">Fair <span>.</span></div>
+                <div class="about__header-3">Human <span>.</span></div>
+            </div>
+            <p class="about__paragraph">
+                Learn why <strong>over 5 million clients choose XM</strong> as their trusted online broker.
+            </p>
+        </div>
+        <div class="about__item about__item--2">
+            <div class="about__img-wrapper">
+                <img class="about__img" src="img/badge.png" alt="badge">
+            </div>
+            <h4 class="about__subheader">Authorised and Regulated</h4>
+            <p class="about__subparagraph">At XM, we adhere to all regulatory standards and are fully authorised and
+                regulated by FSC.</p>
+        </div>
+        <div class="about__item about__item--3">
+            <div class="about__img-wrapper">
+                <img class="about__img" src="img/people.png" alt="people">
+            </div>
+            <h4 class="about__subheader">Committed and Fair</h4>
+            <p class="about__subparagraph">We operate with complete transparency and adhere to the highest professional
+                and ethical standards.</p>
+        </div>
+        <div class="about__item about__item--4">
+            <div class="about__img-wrapper">
+                <img class="about__img" src="img/trophy.png" alt="trophy">
+            </div>
+            <h4 class="about__subheader">Multi-Award-Winning</h4>
+            <p class="about__subparagraph">Over the years we have received over 40 awards for the quality of our
+                products and services.</p>
+        </div>
+        <div class="about__item about__item--5">
+            <div class="about__img-wrapper">
+                <img class="about__img" src="img/sign247.png" alt="sign247">
+            </div>
+            <h4 class="about__subheader">24/7 Support</h4>
+            <p class="about__subparagraph">Our support agents are on hand 24/7 to answer your questions or assist you
+                with any issues.</p>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer__row">
+            <div class="footer__logos">
+                <img src="img/footer1.png" alt="Footer logo 1">
+                <img src="img/footer2.png" alt="Footer logo 2">
+                <img src="img/footer3.png" alt="Footer logo 3">
+                <img src="img/footer4.png" alt="Footer logo 4">
+            </div>
+            <div class="footer__social">
+                <span class="footer__social-text">Follow us on</span>
+                <span class="footer__social-icons">
+                    <a href="#facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#youtube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#linkedin">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </span>
+            </div>
+        </div>
+        <div class="footer__row footer-row-bottom">
+            <div class="footer-row-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookie Policy</a>
+                <a href="#">Terms and Conditions</a>
+            </div>
+            <div class="footer__logo">
+                <img src="img/footer5.png" alt="Footer logo 5">
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/swiper-adj.js"></script>
+
+</body>
+
+</html>
