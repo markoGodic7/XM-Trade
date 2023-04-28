@@ -336,7 +336,7 @@
 * .trade-section .trade {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(4, atuo);
+  grid-template-rows: repeat(4, auto);
   grid-column-gap: 25px;
   grid-row-gap: 25px;
   margin-left: 15px;
@@ -351,8 +351,7 @@
 * .trade-section .trade__card {
   position: relative;
   background: #0B0819;
-  -webkit-backdrop-filter: blur(45px);
-          backdrop-filter: blur(45px);
+  backdrop-filter: blur(45px);
   border-radius: 10px;
   padding: 43px 20px;
 }
@@ -657,15 +656,15 @@
   margin-top: 29px;
   margin-bottom: 38px;
 }
+* .register .success-message img {
+  height: 53px;
+  margin-right: 14px;
+}
 * .register .success-message__header {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-bottom: 32px;
-}
-* .register .success-message__header img {
-  height: 53px;
-  margin-right: 14px;
 }
 * .register .success-message__header h3 {
   font-weight: 500;
@@ -783,10 +782,7 @@
   display: block;
   max-width: 100%;
   height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: -moz-crisp-edges;
+  object-fit: cover;
   image-rendering: crisp-edges;
 }
 * .about {
