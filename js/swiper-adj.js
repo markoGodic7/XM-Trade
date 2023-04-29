@@ -9,18 +9,6 @@ const swiper = new Swiper(".swiper-slider", {
     keyboard: {
         enabled: true
     },
-
-    // Enabled autoplay mode
-
-
-    // If we need pagination
-    // pagination: {
-    //     el: ".swiper-pagination",
-    //     dynamicBullets: false,
-    //     clickable: true
-    // },
-
-    // If we need navigation
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
